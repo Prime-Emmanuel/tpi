@@ -1,0 +1,6 @@
+{
+  "name": "TPI Engineering Group",
+  "description": "Site vitrine officiel de TPI Engineering Group — Électricité Tertiaire, Énergies Renouvelables et Génie Civil (Études, Plans et Réalisation). Cameroun & International.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
