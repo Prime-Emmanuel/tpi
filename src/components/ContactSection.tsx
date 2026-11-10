@@ -215,7 +215,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                       </p>
                     </div>
                     <span className="text-[11px] font-mono text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded">
-                      TPI SARL
+                      TPI ENGINEERING GROUP
                     </span>
                   </div>
 
@@ -418,8 +418,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                     </button>
                     <p className="text-[11px] text-slate-400 text-center mt-2 font-mono">
                       {lang === 'fr'
-                        ? 'Données strictement confidentielles · Transmission directe à TPI ENGINEERING SARL'
-                        : 'Confidential technical data · Direct submission to TPI ENGINEERING SARL'}
+                        ? 'Données strictement confidentielles · Transmission directe à TPI ENGINEERING GROUP'
+                        : 'Confidential technical data · Direct submission to TPI ENGINEERING GROUP'}
                     </p>
                   </div>
                 </form>

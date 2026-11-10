@@ -30,8 +30,8 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ lang, onOpenContact 
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed">
             {lang === 'fr'
-              ? 'TPI Engineering Group (TPI ENGINEERING SARL) est une structure d’ingénierie multidisciplinaire fondée avec une ambition claire : apporter aux maîtres d’ouvrage privés, institutionnels et particuliers des solutions techniques irréprochables en électricité, énergies propres et génie civil.'
-              : 'TPI Engineering Group (TPI ENGINEERING SARL) is a multidisciplinary engineering practice established with a clear mandate: providing private developers, institutional entities, and private clients with impeccable technical solutions across tertiary electricity, clean energies, and comprehensive civil works.'}
+              ? 'TPI Engineering Group est une structure d’ingénierie multidisciplinaire fondée avec une ambition claire : apporter aux maîtres d’ouvrage privés, institutionnels et particuliers des solutions techniques irréprochables en électricité, énergies propres et génie civil.'
+              : 'TPI Engineering Group is a multidisciplinary engineering practice established with a clear mandate: providing private developers, institutional entities, and private clients with impeccable technical solutions across tertiary electricity, clean energies, and comprehensive civil works.'}
           </p>
         </div>
 

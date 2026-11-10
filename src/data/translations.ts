@@ -2,7 +2,7 @@ import { ServiceItem, ClientSector, GeographicMarket } from '../types/content';
 
 export const COMPANY_INFO = {
   name: 'TPI Engineering Group',
-  legalName: 'TPI ENGINEERING SARL',
+  legalName: 'TPI ENGINEERING GROUP',
   slogan: {
     fr: 'BÂTIR UN AVENIR DURABLE',
     en: 'BUILDING A SUSTAINABLE FUTURE',

@@ -48,9 +48,10 @@ export const Hero: React.FC<HeroProps> = ({ lang, onToggleLang, onOpenContact })
                 className="w-full h-full object-cover rounded-sm"
               />
             </div>
-            <span className="font-['Syne'] font-black text-lg sm:text-2xl tracking-tighter text-[#0a0a0a] uppercase flex items-center gap-1.5 whitespace-nowrap">
-              <span className="text-black text-base" aria-hidden="true">✦</span>
-              <span>TPI</span>
+            <span className="font-['Syne'] font-black text-sm sm:text-lg lg:text-xl tracking-tighter text-[#0a0a0a] uppercase flex items-center gap-1.5 whitespace-nowrap">
+              <span className="text-black text-sm sm:text-base" aria-hidden="true">✦</span>
+              <span className="hidden sm:inline">TPI ENGINEERING GROUP</span>
+              <span className="sm:hidden">TPI GROUP</span>
             </span>
           </a>
 
@@ -144,7 +145,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, onToggleLang, onOpenContact })
                     <div className="w-7 h-7 rounded bg-black p-0.5">
                       <img src={COMPANY_INFO.logoSrc} alt="Logo" className="w-full h-full object-cover" />
                     </div>
-                    <span className="font-['Syne'] font-black text-lg text-black">TPI GROUP</span>
+                    <span className="font-['Syne'] font-black text-sm sm:text-base text-black">TPI ENGINEERING GROUP</span>
                   </div>
                   <button
                     type="button"
@@ -221,11 +222,12 @@ export const Hero: React.FC<HeroProps> = ({ lang, onToggleLang, onOpenContact })
 
         {/* Central Display: 2-Column Grid on Laptop/Desktop (Zero overlap, Image placed strictly on the RIGHT) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center my-auto py-4 sm:py-8 z-10">
-          {/* Left Column (lg:col-span-6): 100% Unobstructed Headline, Subtitle, Value Statement, and Primary CTAs */}
-          <div className="lg:col-span-6 space-y-5 sm:space-y-6">
+          {/* Left Column (lg:col-span-7): 100% Unobstructed Headline, Subtitle, Value Statement, and Primary CTAs */}
+          <div className="lg:col-span-7 space-y-5 sm:space-y-6">
             <div>
-              <h1 className="font-['Syne'] font-black text-5xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl leading-[0.88] tracking-[-0.03em] text-[#0a0a0a] uppercase select-none">
+              <h1 className="font-['Syne'] font-black text-4xl sm:text-5xl lg:text-5xl xl:text-6xl leading-[0.92] tracking-tight text-[#0a0a0a] uppercase select-none">
                 TPI<br />
+                ENGINEERING<br />
                 GROUP
               </h1>
               <div className="mt-3 flex flex-wrap items-center gap-2 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-black/70 font-semibold">
@@ -279,8 +281,8 @@ export const Hero: React.FC<HeroProps> = ({ lang, onToggleLang, onOpenContact })
             </div>
           </div>
 
-          {/* Right Column (lg:col-span-6): Company Reception Image placed to the RIGHT + Roman Numeral III + Spec Card */}
-          <div className="lg:col-span-6 flex flex-col gap-5 sm:gap-6">
+          {/* Right Column (lg:col-span-5): Company Reception Image placed to the RIGHT + Roman Numeral III + Spec Card */}
+          <div className="lg:col-span-5 flex flex-col gap-5 sm:gap-6">
             {/* Top row in right column: Tag + Roman Numeral III (Echoing XII in Dribbble reference) */}
             <div className="flex items-center justify-between">
               <div className="text-[10px] font-mono tracking-widest uppercase text-black/70 font-bold bg-white/80 backdrop-blur-sm px-3 py-1 rounded-full border border-black/10 shadow-xs flex items-center gap-1.5">
